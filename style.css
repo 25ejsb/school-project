@@ -1,0 +1,327 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-image: url(test.jpg);
+}
+
+#headtext:hover {
+    font-size: 75px; 
+}
+
+#headtext {
+    position: absolute;
+    text-align: center;
+    left: 375px;
+    top: 45px;
+    font-family: monospace;
+    width: 800px;
+    height: 200px;
+    font-size: 70px;
+}
+
+#School {
+    width: 200px;
+    height: 65px;
+    left: 0px;
+    top: 15px;
+    font-size: 25px;
+    position: absolute;
+}
+
+#globalheadtext {
+    position: absolute;
+    top: 200px;
+    left: 600px;
+    width: 400px;
+    height: 50px;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+#l1 {
+    position: absolute;
+    top: 250px;
+    left: 600px;
+    width: 400px;
+    height: 50px;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+#l2 {
+    position: absolute;
+    top: 300px;
+    left: 600px;
+    width: 400px;
+    height: 50px;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+#l3 {
+    position: absolute;
+    top: 350px;
+    left: 600px;
+    width: 400px;
+    height: 50px;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+#l4 {
+    position: absolute;
+    top: 400px;
+    left: 600px;
+    width: 400px;
+    height: 50px;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+#l5 {
+    position: absolute;
+    top: 450px;
+    left: 600px;
+    width: 400px;
+    height: 50px;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+#headtext4th {
+    position: absolute;
+    top: 200px;
+    left: 850px;
+    width: 400px;
+    height: 50px;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+#headtext5th {
+    position: absolute;
+    top: 525px;
+    left: 600px;
+    width: 400px;
+    height: 50px;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+#headtext6th {
+    position: absolute;
+    top: 525px;
+    left: 850px;
+    width: 400px;
+    height: 50px;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+#l4-1 {
+    position: absolute;
+    top: 250px;
+    left: 850px;
+    width: 400px;
+    height: 50px;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+#l4-2 {
+    position: absolute;
+    top: 300px;
+    left: 850px;
+    width: 400px;
+    height: 50px;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+#l4-3 {
+    position: absolute;
+    top: 350px;
+    left: 850px;
+    width: 400px;
+    height: 50px;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+#l5-1 {
+    position: absolute;
+    top: 575px;
+    left: 600px;
+    width: 400px;
+    height: 50px;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+#l5-2 {
+    position: absolute;
+    top: 625px;
+    left: 600px;
+    width: 400px;
+    height: 50px;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+#l5-3 {
+    position: absolute;
+    top: 675px;
+    left: 600px;
+    width: 400px;
+    height: 50px;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+#l6-1 {
+    position: absolute;
+    top: 575px;
+    left: 850px;
+    width: 400px;
+    height: 50px;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+#l6-2 {
+    position: absolute;
+    top: 625px;
+    left: 850px;
+    width: 400px;
+    height: 50px;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+#l6-3 {
+    position: absolute;
+    top: 675px;
+    left: 850px;
+    width: 400px;
+    height: 50px;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+#topbar:hover {
+    height: 115px;
+}
+
+#topbar {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    transition: 0.5s;
+}
+
+#maintext {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    left: 570px;
+    top: 200px;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+#About:hover {
+    color: black;
+    width: 215px;
+}
+
+#Leaderboards:hover {
+    color: black;
+    width: 215px;
+}
+
+#Contacts:hover {
+    color: black;
+    width: 215px;
+}
+
+#Credits:hover {
+    color: black;
+    width: 215px;
+}
+
+#About {
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    left: 0px;
+    top: 200px;
+    border-radius: 20px;
+    font-size: 40px;
+    font-family: monospace;
+    color: white;
+    transition: 0.5s;
+    border-color: gray;
+}
+
+#Leaderboards {
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    left: 0px;
+    top: 300px;
+    border-radius: 20px;
+    font-size: 28px;
+    font-family: monospace;
+    color: white;
+    transition: 0.5s;
+    border-color: gray;
+}
+
+#Contacts {
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    left: 0px;
+    top: 400px;
+    border-radius: 20px;
+    font-size: 30px;
+    font-family: monospace;
+    color: white;
+    transition: 0.5s;
+    border-color: gray;
+}
+
+#Credits {
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    left: 0px;
+    top: 500px;
+    border-radius: 20px;
+    font-size: 30px;
+    font-family: monospace;
+    color: white;
+    transition: 0.5s;
+    border-color: gray;
+}
+
+h1 {
+    position: absolute;
+    left: 500px;
+    top: -10px;
+    font-family: monospace;
+    font-size: 50px;
+}
+
+#trail {
+    position: absolute;
+    width: 1300px;
+    height: 650px;
+    left: 220px;
+    top: 100px;
+    border-radius: 12px;
+    opacity: 70%;
+}
