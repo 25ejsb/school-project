@@ -36,7 +36,7 @@ var aboutText = "Hello";
 // scores
 
 // global
-var number1 = "Someone";
+var number1 = "Hello";
 var number2 = "Someone";
 var number3 = "Someone";
 var number4 = "Someone";
