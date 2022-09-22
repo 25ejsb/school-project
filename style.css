@@ -215,7 +215,7 @@ html, body {
 
 #topbar {
     position: absolute;
-    width: 100%;
+    width: 1500px;
     height: 100px;
     left: 0px;
     top: 0px;
@@ -312,6 +312,8 @@ h1 {
     position: absolute;
     left: 500px;
     top: -10px;
+    width: 1000px;
+    text-align: left;
     font-family: monospace;
     font-size: 50px;
 }
