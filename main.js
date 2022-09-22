@@ -1,3 +1,5 @@
+to update add, go to app.netlify.com then go to website, then go to deploys, then update the files
+
 var img = document.getElementById("School");
 var text = document.getElementById("maintext");
 
