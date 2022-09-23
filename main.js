@@ -141,6 +141,9 @@ leaderboards.addEventListener("click", function(){
         $('#l6-1').fadeIn();
         $('#l6-2').fadeIn();
         $('#l6-3').fadeIn();
+        $('#l8-1').fadeIn();
+        $('#l8-2').fadeIn();
+        $('#l8-3').fadeIn();
         $('#globalheadtext').fadeIn();
         $('#headtext4th').fadeIn();
         $('#headtext5th').fadeIn();
