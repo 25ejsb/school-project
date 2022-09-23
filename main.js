@@ -82,6 +82,7 @@ function reset() {
     $('#headtext4th').fadeOut();
     $('#headtext5th').fadeOut();
     $('#headtext6th').fadeOut();
+    $('#headtext8th').fadeOut();
     $('#l1').fadeOut();
     $('#l2').fadeOut();
     $('#l3').fadeOut();
