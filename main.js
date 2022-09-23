@@ -38,12 +38,10 @@ var headtext5th = document.getElementById("headtext5th");
 var headtext6th = document.getElementById("headtext6th");
 var headtext8th = document.getElementById("headtext8th");
 
-var aboutText = "Hello";
-
 // scores
 
 // global
-var number1 = "Hello";
+var number1 = "Someone";
 var number2 = "Someone";
 var number3 = "Someone";
 var number4 = "Someone";
