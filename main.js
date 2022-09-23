@@ -28,10 +28,15 @@ var l6_1 = document.getElementById("l6-1");
 var l6_2 = document.getElementById("l6-2");
 var l6_3 = document.getElementById("l6-3");
 
+var l8_1 = document.getElementById("l8-1");
+var l8_2 = document.getElementById("l8-2");
+var l8_3 = document.getElementById("l8-3");
+
 var globalheadtext = document.getElementById("globalheadtext");
 var headtext4th = document.getElementById("headtext4th");
 var headtext5th = document.getElementById("headtext5th");
 var headtext6th = document.getElementById("headtext6th");
+var headtext8th = document.getElementById("headtext8th");
 
 var aboutText = "Hello";
 
@@ -58,6 +63,11 @@ var fifthnum3 = "Someone";
 var sixnum1 = "Someone";
 var sixnum2 = "Someone";
 var sixnum3 = "Someone";
+
+// 8th grade
+var eightnum1 = "Someone";
+var eightnum2 = "Someone";
+var eightnum3 = "Someone";
 
 img.addEventListener("click", function()
 {
@@ -86,6 +96,9 @@ function reset() {
     $('#l6-1').fadeOut();
     $('#l6-2').fadeOut();
     $('#l6-3').fadeOut();
+    $('#l8-1').fadeOut();
+    $('#l8-2').fadeOut();
+    $('#l8-3').fadeOut();
 }
 
 leaderboards.addEventListener("click", function(){
@@ -106,10 +119,14 @@ leaderboards.addEventListener("click", function(){
         l6_1.innerHTML = "#1 " + sixnum1;
         l6_2.innerHTML = "#2 " + sixnum2;
         l6_3.innerHTML = "#3 " + sixnum3;
+        l8_1.innerHTML = "#1 " + eightnum1;
+        l8_2.innerHTML = "#2 " + eightnum2;
+        l8_3.innerHTML = "#3 " + eightnum3;
         globalheadtext.innerHTML = "Global:";
         headtext4th.innerHTML = "4th grade:";
         headtext5th.innerHTML = "5th grade:";
         headtext6th.innerHTML = "6th grade:";
+        headtext8th.innerHTML = "7/8th grade:";
         $('#l1').fadeIn();
         $('#l2').fadeIn();
         $('#l3').fadeIn();
@@ -128,6 +145,7 @@ leaderboards.addEventListener("click", function(){
         $('#headtext4th').fadeIn();
         $('#headtext5th').fadeIn();
         $('#headtext6th').fadeIn();
+        $('#headtext8th').fadeIn();
         $('#headtext').fadeIn();
     }, 1000);
 });
