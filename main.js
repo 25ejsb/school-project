@@ -167,7 +167,7 @@ contacts.addEventListener("click", function(){
     reset();
     setTimeout(function(){
         headText.innerHTML = "Contacts";
-        text.innerHTML = "Feel free to contact these emails addresses for more information: yoni.yaakov@epsteinhillel.org, talia.blue@epsteinhillel.org, and lgoldenberg@epsteinhillel.org";
+        text.innerHTML = "Feel free to contact these emails addresses for more information: yoni.yaakov@epsteinhillel.org, talia.blue@epsteinhillel.org, and brochsteine2024@epsteinhillel.org";
         $('#maintext').fadeIn();
         $('#headtext').fadeIn();
     }, 1000);
