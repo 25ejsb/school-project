@@ -16,27 +16,8 @@ var l3 = document.getElementById("l3");
 var l4 = document.getElementById("l4");
 var l5 = document.getElementById("l5");
 
-var l4_1 = document.getElementById("l4-1");
-var l4_2 = document.getElementById("l4-2");
-var l4_3 = document.getElementById("l4-3");
-
-var l5_1 = document.getElementById("l5-1");
-var l5_2 = document.getElementById("l5-2");
-var l5_3 = document.getElementById("l5-3");
-
-var l6_1 = document.getElementById("l6-1");
-var l6_2 = document.getElementById("l6-2");
-var l6_3 = document.getElementById("l6-3");
-
-var l8_1 = document.getElementById("l8-1");
-var l8_2 = document.getElementById("l8-2");
-var l8_3 = document.getElementById("l8-3");
-
 var globalheadtext = document.getElementById("globalheadtext");
-var headtext4th = document.getElementById("headtext4th");
-var headtext5th = document.getElementById("headtext5th");
-var headtext6th = document.getElementById("headtext6th");
-var headtext8th = document.getElementById("headtext8th");
+var classpoints = document.getElementById("ClassPoints");
 
 // scores
 
@@ -46,26 +27,6 @@ var number2 = "Someone";
 var number3 = "Someone";
 var number4 = "Someone";
 var number5 = "Someone";
-
-// 4th grade
-var forthnum1 = "Someone";
-var forthnum2 = "Someone";
-var forthnum3 = "Someone";
-
-// 5th grade
-var fifthnum1 = "Someone";
-var fifthnum2 = "Someone";
-var fifthnum3 = "Someone";
-
-// 6th grade
-var sixnum1 = "Someone";
-var sixnum2 = "Someone";
-var sixnum3 = "Someone";
-
-// 8th grade
-var eightnum1 = "Someone";
-var eightnum2 = "Someone";
-var eightnum3 = "Someone";
 
 img.addEventListener("click", function()
 {
@@ -77,27 +38,11 @@ function reset() {
     $('#maintext').fadeOut();
     $('#headtext').fadeOut();
     $('#globalheadtext').fadeOut();
-    $('#headtext4th').fadeOut();
-    $('#headtext5th').fadeOut();
-    $('#headtext6th').fadeOut();
-    $('#headtext8th').fadeOut();
     $('#l1').fadeOut();
     $('#l2').fadeOut();
     $('#l3').fadeOut();
     $('#l4').fadeOut();
     $('#l5').fadeOut();
-    $('#l4-1').fadeOut();
-    $('#l4-2').fadeOut();
-    $('#l4-3').fadeOut();
-    $('#l5-1').fadeOut();
-    $('#l5-2').fadeOut();
-    $('#l5-3').fadeOut();
-    $('#l6-1').fadeOut();
-    $('#l6-2').fadeOut();
-    $('#l6-3').fadeOut();
-    $('#l8-1').fadeOut();
-    $('#l8-2').fadeOut();
-    $('#l8-3').fadeOut();
 }
 
 leaderboards.addEventListener("click", function(){
@@ -109,45 +54,14 @@ leaderboards.addEventListener("click", function(){
         l3.innerHTML = "#3 " + number3;
         l4.innerHTML = "#4 " + number4;
         l5.innerHTML = "#5 " + number5;
-        l4_1.innerHTML = "#1 " + forthnum1;
-        l4_2.innerHTML = "#2 " + forthnum2;
-        l4_3.innerHTML = "#3 " + forthnum3;
-        l5_1.innerHTML = "#1 " + fifthnum1;
-        l5_2.innerHTML = "#2 " + fifthnum2;
-        l5_3.innerHTML = "#3 " + fifthnum3;
-        l6_1.innerHTML = "#1 " + sixnum1;
-        l6_2.innerHTML = "#2 " + sixnum2;
-        l6_3.innerHTML = "#3 " + sixnum3;
-        l8_1.innerHTML = "#1 " + eightnum1;
-        l8_2.innerHTML = "#2 " + eightnum2;
-        l8_3.innerHTML = "#3 " + eightnum3;
         globalheadtext.innerHTML = "Global:";
-        headtext4th.innerHTML = "4th grade:";
-        headtext5th.innerHTML = "5th grade:";
-        headtext6th.innerHTML = "6th grade:";
-        headtext8th.innerHTML = "7/8th grade:";
+        classpoints.innerHTML = "4th grade: 0 <br> 5th grade: 0 <br> 6th grade: 0 <br> 7/8th grade: 0";
         $('#l1').fadeIn();
         $('#l2').fadeIn();
         $('#l3').fadeIn();
         $('#l4').fadeIn();
         $('#l5').fadeIn();
-        $('#l4-1').fadeIn();
-        $('#l4-2').fadeIn();
-        $('#l4-3').fadeIn();
-        $('#l5-1').fadeIn();
-        $('#l5-2').fadeIn();
-        $('#l5-3').fadeIn();
-        $('#l6-1').fadeIn();
-        $('#l6-2').fadeIn();
-        $('#l6-3').fadeIn();
-        $('#l8-1').fadeIn();
-        $('#l8-2').fadeIn();
-        $('#l8-3').fadeIn();
         $('#globalheadtext').fadeIn();
-        $('#headtext4th').fadeIn();
-        $('#headtext5th').fadeIn();
-        $('#headtext6th').fadeIn();
-        $('#headtext8th').fadeIn();
         $('#headtext').fadeIn();
     }, 1000);
 });
