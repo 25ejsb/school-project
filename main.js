@@ -43,6 +43,7 @@ function reset() {
     $('#l3').fadeOut();
     $('#l4').fadeOut();
     $('#l5').fadeOut();
+    $('#ClassPoints').fadeOut();
 }
 
 leaderboards.addEventListener("click", function(){
@@ -61,6 +62,7 @@ leaderboards.addEventListener("click", function(){
         $('#l3').fadeIn();
         $('#l4').fadeIn();
         $('#l5').fadeIn();
+        $('#ClassPoints').fadeIn();
         $('#globalheadtext').fadeIn();
         $('#headtext').fadeIn();
     }, 1000);
