@@ -56,7 +56,7 @@ leaderboards.addEventListener("click", function(){
         l4.innerHTML = "#4 " + number4;
         l5.innerHTML = "#5 " + number5;
         globalheadtext.innerHTML = "Global:";
-        classpoints.innerHTML = "4th grade: 0 <br> 5th grade: 0 <br> 6th grade: 0 <br> 7/8th grade: 0";
+        classpoints.innerHTML = "4th grade: 81 <br> 5th grade: 70 <br> 6th grade: 1 <br> 7/8th grade: 14";
         $('#l1').fadeIn();
         $('#l2').fadeIn();
         $('#l3').fadeIn();
