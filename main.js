@@ -22,11 +22,11 @@ var classpoints = document.getElementById("ClassPoints");
 // scores
 
 // global
-var number1 = "Someone";
-var number2 = "Someone";
-var number3 = "Someone";
-var number4 = "Someone";
-var number5 = "Someone";
+var number1 = "George";
+var number2 = "Yoni";
+var number3 = "Adriana";
+var number4 = "Darwinia";
+var number5 = "Bella";
 
 img.addEventListener("click", function()
 {
