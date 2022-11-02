@@ -92,7 +92,7 @@ credits.addEventListener("click", function(){
     reset();
     setTimeout(function(){
         headText.innerHTML = "Credits";
-        text.innerHTML = "Event Leaders: 7/8th grade and Lori Goldenberg, Website: 7th grade";
+        text.innerHTML = "Event Leaders: 7/8th grade and Lori Goldenberg, Website: 7th grade, Advertising/Main Point Counter: Yoni, Event Leaders: Lori/Talia";
         $('#maintext').fadeIn();
         $('#headtext').fadeIn();
     }, 1000);
