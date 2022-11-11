@@ -72,7 +72,7 @@ about.addEventListener("click", function(){
     reset();
     setTimeout(function(){
         headText.innerHTML = "About";
-        text.innerHTML = "Students will begin at the playground entrance to the bike path. They will continue, under the supervision of an eighth grader, until the baseball field exit. They will make their way up the hill near the JCC pool and along the top unity they re-enter the playground. They will then make their way to the start of the route. All of this is around 0.2 miles.";
+        text.innerHTML = "Students will begin at the playground entrance to the bike path. They will continue, under the supervision of an eighth grader, until the baseball field exit. They will make their way up the hill near the JCC pool and along the top unity they re-enter the playground. They will then make their way to the start of the route. All of this is around .2 miles.";
         $('#maintext').fadeIn();
         $('#headtext').fadeIn();
     }, 1000);
