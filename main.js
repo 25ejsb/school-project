@@ -24,9 +24,9 @@ var classpoints = document.getElementById("ClassPoints");
 // global
 var number1 = "George";
 var number2 = "Jackson";
-var number3 = "Yoni";
-var number4 = "Bella";
-var number5 = "Alice";
+var number3 = "David";
+var number4 = "Yoni";
+var number5 = "Mikaela";
 
 img.addEventListener("click", function()
 {
@@ -56,7 +56,7 @@ leaderboards.addEventListener("click", function(){
         l4.innerHTML = "#4 " + number4;
         l5.innerHTML = "#5 " + number5;
         globalheadtext.innerHTML = "Global:";
-        classpoints.innerHTML = "4th grade: 159 <br> 5th grade: 151 <br> 6th grade: 39 <br> 7/8th grade: 32";
+        classpoints.innerHTML = "4th grade: 224 <br> 5th grade: 186 <br> 6th grade: 63 <br> 7/8th grade: 43";
         $('#l1').fadeIn();
         $('#l2').fadeIn();
         $('#l3').fadeIn();
